@@ -2,7 +2,7 @@ import cv2
 import os
 
 # Image path
-image_path = "Flower.bmp"
+image_path = "../images/Flower.bmp"
 # Image directory
 directory = "./"
 
@@ -16,7 +16,7 @@ key = cv2.waitKey()
 if key == 27: #if ESC is pressed, exit
     cv2.destroyAllWindows()
 
-# Image print
+# Image printa
 os.chdir(directory)
 print("Before saving image:")
 print(os.listdir(directory))
